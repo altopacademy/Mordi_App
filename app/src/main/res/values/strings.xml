@@ -1,0 +1,19 @@
+<resources>
+    <string name="productname">Internet 50GB + Unilimited Youtube</string>
+    <string name="productdescr">Data 5GB + 4GB</string>
+    <string name="price">Rp 60.000</string>
+    <string name="namaApp">Makula</string>
+
+    <string name="detail_transfer">Transfer ke salah satu rekening sales di BCA, Mandiri, BNI atau BRI. Informasi nomor rekening diberikan setelah order layanan telah selesai.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="value_product">Kita menyediakan berbagai macam pilihan kuota terbaik kepada konsumen dengan kualitas pelayanan yang terbaik</string>
+    <string name="baru">BARU! Kartu Perdana Freedom Internet 2GB Bonus hingga 24GB?</string>
+    <string name="content_kuota">Beli dan aktifkan Kartu Perdana Freedom Internet, yang bisa kasih kamu kuota tambahan hingga 24GB setahun, dengan hanya isi pulsa di tiap bulannya. Isi pulsa minimal 10rb, kamu bisa dapat bonus kuota tambahan 1GB setiap bulan. Lebih untung lagi, dengan isi pulsa minimal 20rb, dapat bonus kuota tambahan 2GB tiap bulan. Selain kuotanya besar, bisa dipakai 24 jam di semua jaringan dan aman dengan pulsa safe.</string>
+    <string name="value_nomor">Nomor cantik terbaik hanya untuk konsumen, dengan pilihan menarik dapat menarik hati konsumen untuk membelinya.</string>
+    <string name="question">Apakah beli Kartu Perdana Online itu?</string>
+    <string name="content_nomor">Beli Kartu Perdana Online adalah fitur baru yang tersedia hanya di aplikasi myIM3 dan website im3.do/shop yang menawarkan pengalaman baru untuk membeli Kartu Perdana Indosat secara online dan akan dikirimkan langsung ke pelanggan.</string>
+    <string name="question2">Apakah pembelian Kartu Perdana Online tersedia di seluruh wilayah Indonesia?r</string>
+    <string name="answer">Ya, sekarang pembelian Kartu Perdana Online sudah tersedia di seluruh Indonesia.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

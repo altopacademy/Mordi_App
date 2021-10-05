@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "570982323017",
+    "project_id": "imost-f8174",
+    "storage_bucket": "imost-f8174.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:570982323017:android:4dcde8aa82ace2be104098",
+        "android_client_info": {
+          "package_name": "com.widyaedu.imost"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "570982323017-33qe3sao4g7mjbenaj6um95lplnnkb7b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.widyaedu.imost",
+            "certificate_hash": "f5d9ba62822589cdca3f3a1e5ab0eeb4499260b4"
+          }
+        },
+        {
+          "client_id": "570982323017-6obld9jqeq5oed7t3ehkstopi3urj9dj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBP7mNvqYf-HHiStmMYbf3hgHnUNbkrpw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "570982323017-6obld9jqeq5oed7t3ehkstopi3urj9dj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvNama"
+        style="@style/TextBoldNormal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Produk"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etProduct"
+        style="@style/TextNormalNormal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_stroke_chat"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="8dp"
+        android:hint="nama produk"
+        app:layout_constraintTop_toBottomOf="@+id/tvNama" />
+
+    <TextView
+        android:id="@+id/tvDetail"
+        style="@style/TextBoldNormal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Deskripsi Produk"
+        app:layout_constraintTop_toBottomOf="@+id/etProduct" />
+
+    <EditText
+        android:id="@+id/etDetail"
+        style="@style/TextNormalNormal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_stroke_chat"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="8dp"
+        android:hint="deskripsi produk"
+        app:layout_constraintTop_toBottomOf="@+id/tvDetail" />
+
+    <TextView
+        android:id="@+id/tvHarga"
+        style="@style/TextBoldNormal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Harga Produk"
+        app:layout_constraintTop_toBottomOf="@+id/etDetail" />
+
+    <EditText
+        android:id="@+id/etHarga"
+        style="@style/TextNormalNormal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_stroke_chat"
+        android:hint="masukkan harga"
+        android:inputType="numberDecimal"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvHarga" />
+
+    <TextView
+        android:id="@+id/tvFoto"
+        style="@style/TextBoldNormal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Foto Produk"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/etHarga"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pilih file"
+        style="@style/TextNormalNormal"
+        android:visibility="gone"
+        android:textAllCaps="false"
+        android:paddingVertical="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvFoto"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/btUpload" />
+
+    <TextView
+        android:id="@+id/textView4"
+        style="@style/TextBoldNormal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Status"
+        app:layout_constraintTop_toBottomOf="@+id/btUpload"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btActive"
+        style="@style/TextBoldNormal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/shape_btn_active_off"
+        android:paddingHorizontal="16dp"
+        android:text="Active"
+        android:textAllCaps="false"
+        android:textColor="@color/green"
+        app:layout_constraintEnd_toStartOf="@+id/btNonActive"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btNonActive"
+        style="@style/TextBoldNormal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/shape_btn_nonactive_off"
+        android:paddingHorizontal="16dp"
+        android:text="Non Active"
+        android:textAllCaps="false"
+        android:textColor="@color/red"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btActive"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btSaveProduk"
+        style="@style/TextBoldNormal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/round_solid_yellow"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btNonActive"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

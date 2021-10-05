@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/activity_add_payment.xml" value="0.21458333333333332" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/activity_checkout.xml" value="0.21458333333333332" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/activity_detail.xml" value="0.21458333333333332" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/activity_detail_product.xml" value="0.18" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/activity_detail_product_knowledge.xml" value="0.21458333333333332" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/activity_detail_sales.xml" value="0.21458333333333332" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/activity_detail_transaksi.xml" value="0.21458333333333332" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/activity_home.xml" value="0.26403985507246375" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/activity_input.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/activity_input2.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/activity_input2ctivity.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/activity_list.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/activity_list_my_payment.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/activity_list_my_product.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/activity_list_my_rating.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/activity_list_product.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/activity_list_sales_item.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/activity_main2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/activity_management_sales.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/activity_order.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/activity_otp.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/activity_pesan.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/activity_product_knowledge.xml" value="0.26403985507246375" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/activity_sales.xml" value="0.26403985507246375" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/activity_splash.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/activity_update.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/activity_update_profile.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/activity_welcome.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/adapter_text.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/bottom_add_promo.xml" value="0.21458333333333332" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/bottom_add_sales.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/bottom_confirm_transaction.xml" value="0.21458333333333332" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/bottom_datepick.xml" value="0.21458333333333332" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/bottom_edit_sales.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/bottom_menu_add_product.xml" value="0.21458333333333332" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/bottom_menu_add_product_nomor.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/bottom_sheet_detail.xml" value="0.21458333333333332" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/bottom_sheet_sales.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/custom_spinner.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/dialog_button.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/dialog_rating.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/fragment_kuota_sales.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/fragment_nomor_cantik.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/fragment_other.xml" value="0.21458333333333332" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/fragment_pesan.xml" value="0.10435663627152988" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/fragment_product.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/fragment_promo_sales.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/fragment_purchase.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/fragment_trx.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/fragment_welcome.xml" value="0.21458333333333332" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/item_adminkuota.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/item_chat.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/item_chat_sales.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/item_history_chat.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/item_history_transaction.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/item_image_promo.xml" value="0.21458333333333332" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/item_kuota.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/item_mykuota.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/item_mypayment.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/item_payment.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/item_produk_sales.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/item_promo.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/item_review_sales.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/item_sales.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/layout/popup_invoice.xml" value="0.21458333333333332" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Lenovo/Documents/Altop/github/imost/app/src/main/res/menu/sales_option.xml" value="0.36614583333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

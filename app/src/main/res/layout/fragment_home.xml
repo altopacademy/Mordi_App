@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="64dp">
+
+        <ImageView
+            android:id="@+id/ivHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_bg_home"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="72dp"
+            app:cardCornerRadius="8dp"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/ivProfile"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="4dp"
+                    android:src="@mipmap/ic_launcher_round"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tv1"
+                    style="@style/TextBoldSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Selamat Pagi"
+                    android:textColor="@color/hint"
+                    app:layout_constraintStart_toEndOf="@+id/ivProfile"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tvNama"
+                    style="@style/TextBoldNormal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/app_name"
+                    app:layout_constraintStart_toEndOf="@+id/ivProfile"
+                    app:layout_constraintTop_toBottomOf="@+id/tv1" />
+
+                <ImageView
+                    android:id="@+id/ivNotif"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_notification"
+                    app:layout_constraintBottom_toBottomOf="@+id/ivProfile"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/ivProfile" />
+
+                <View
+                    android:id="@+id/v1"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/gray"
+                    app:layout_constraintTop_toBottomOf="@+id/ivProfile" />
+
+                <TextView
+                    android:id="@+id/roleId"
+                    style="@style/TextBoldNormal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:drawableEnd="@drawable/ic_next"
+                    android:drawablePadding="8dp"
+                    android:padding="4dp"
+                    android:text="Histori Data"
+                    app:layout_constraintTop_toBottomOf="@+id/v1" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/vpPromo"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintCircleRadius="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/cvHome" />
+
+        <me.relex.circleindicator.CircleIndicator
+            android:id="@+id/imgIndicator"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            app:layout_constraintBottom_toBottomOf="@+id/vpPromo"
+            app:layout_constraintEnd_toEndOf="@+id/vpPromo"
+            app:layout_constraintStart_toStartOf="@+id/vpPromo"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/tvLayanan"
+            style="@style/TextBoldNormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="16dp"
+            android:text="Layanan Kami"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgIndicator" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvKuota"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="24dp"
+            app:cardCornerRadius="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/cvNomor"
+            app:layout_constraintEnd_toStartOf="@+id/cvNomor"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/cvNomor">
+
+            <ImageView
+                android:id="@+id/ivKuota"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/duskYellow"
+                android:padding="16dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_kuota" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvKuota"
+            style="@style/TextNormalNormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Input"
+            app:layout_constraintEnd_toEndOf="@+id/cvKuota"
+            app:layout_constraintStart_toStartOf="@+id/cvKuota"
+            app:layout_constraintTop_toBottomOf="@+id/cvKuota" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvNomor"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginTop="8dp"
+            app:cardCornerRadius="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/cvSales"
+            app:layout_constraintStart_toEndOf="@+id/cvKuota"
+            app:layout_constraintTop_toBottomOf="@+id/tvLayanan">
+
+            <ImageView
+                android:id="@+id/ivNomor"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/duskYellow"
+                android:padding="16dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_nomor" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvNomor"
+            style="@style/TextNormalNormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:text="Histori"
+            app:layout_constraintEnd_toEndOf="@+id/cvNomor"
+            app:layout_constraintStart_toStartOf="@+id/cvNomor"
+            app:layout_constraintTop_toBottomOf="@+id/cvNomor" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvSales"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="24dp"
+            app:cardCornerRadius="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/cvNomor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/cvNomor"
+            app:layout_constraintTop_toTopOf="@+id/cvNomor">
+
+            <ImageView
+                android:id="@+id/ivSales"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/duskYellow"
+                android:padding="16dp"
+                android:src="@drawable/ic_sales" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvSales"
+            style="@style/TextNormalNormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Artikel"
+            app:layout_constraintEnd_toEndOf="@+id/cvSales"
+            app:layout_constraintStart_toStartOf="@+id/cvSales"
+            app:layout_constraintTop_toBottomOf="@+id/cvSales" />
+
+
+
+
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

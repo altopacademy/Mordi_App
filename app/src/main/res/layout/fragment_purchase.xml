@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    tools:context=".fragment.PurchaseFragment">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/TextBoldNormal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detail Produk"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvNameproduk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="@string/productdescr"
+        style="@style/TextNormalNormal"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/ivproductdesc"
+        style="@style/TextNormalNormal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Kuota 5GB dan 4GB"
+        app:layout_constraintTop_toBottomOf="@+id/tvNameproduk"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Sales : "
+        app:layout_constraintTop_toBottomOf="@+id/ivproductdesc"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/ivSalesnamedtl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Diaz AP"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/v2"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/gray"
+        app:layout_constraintTop_toBottomOf="@+id/ivSalesnamedtl"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imgMin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_back"
+        app:layout_constraintTop_toBottomOf="@+id/v2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/ivcount"
+        style="@style/TextBoldNormal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:text="1"
+        app:layout_constraintStart_toEndOf="@+id/imgMin"
+        app:layout_constraintTop_toBottomOf="@+id/v2"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imgPlus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_back"
+        android:layout_marginLeft="6dp"
+        app:layout_constraintStart_toEndOf="@+id/ivcount"
+        app:layout_constraintTop_toBottomOf="@+id/v2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/TextBoldNormal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Harga :"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgMin"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/pricedtl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Rp 60.000"
+        android:textColor="@android:color/holo_orange_light"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgPlus"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnPurchase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="BELI"
+        app:layout_constraintTop_toBottomOf="@+id/pricedtl"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

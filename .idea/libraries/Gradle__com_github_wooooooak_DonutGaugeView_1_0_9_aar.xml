@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.wooooooak:DonutGaugeView:1.0.9@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f7053c187baa496c9b9cb6a28c965feb/jetified-DonutGaugeView-1.0.9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f7053c187baa496c9b9cb6a28c965feb/jetified-DonutGaugeView-1.0.9/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f7053c187baa496c9b9cb6a28c965feb/jetified-DonutGaugeView-1.0.9/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.wooooooak/DonutGaugeView/1.0.9/5f1ca12773aaea2ea615ebd5b090583ea6966f5a/DonutGaugeView-1.0.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
